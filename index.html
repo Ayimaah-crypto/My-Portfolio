@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
+
+</head>
+
+<body>
+    <header class="flex flex-col md:text-center justify-center">
+        <div>
+            <nav class="flex justify-around text-center py-0 items-center bg-white/60 backdrop-blur-md shadow-sm fixed top-0 w-full z-60 mb-[50%]"
+                id="navbar">
+                <div class="max-w-7xl mx-auto px-4 py-3 flex md:items-center justify-around">
+                    <a href="">
+                        <img src="./images/_fed282e5-4523-4652-ba6d-bc8d3b2125ea-removebg-preview.png" alt=""
+                            class="h-20 w-50 object-contain px-5 mr-120 pr-10">
+                    </a>
+                </div>
+                <div class="flex md:items-center gap-7 mr-30">
+                    <a href="">
+                        <span
+                            class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Home</span>
+                    </a>
+                    <a href="#about">
+                        <span
+                            class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">About</span>
+                    </a>
+                    <a href="#resume">
+                        <span
+                            class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Resume</span>
+                    </a>
+                    <!-- <a href="">
+                        <span class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Sevices</span>
+                    </a> -->
+                    <a href="#project">
+                        <span
+                            class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Project</span>
+                    </a>
+                    <!-- <a href="">
+                        <span class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Blog</span>
+                    </a> -->
+                    <a href="#contact">
+                        <span
+                            class="text-black hover:text-pink-700 hover:underline underline-offset-4 decoration-2">Contact</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="flex md:flex-col justify-center text-center m-50">
+            <h5 class="text-pink-700 font-bold">HEY! I'M</h5>
+            <h1 class="text-4xl font-bold">THEODORA AYIMAA ASARE</h1>
+            <h4>I am a <b class="text-3xl text-pink-700" id="typed-text">Web Developer, Content Writer</b><span
+                    class="curser">|</span></h4>
+        </div>
+        <div>
+            <span class="mt-10 text-center animate-bounce text-3xl text-pink-700 flex justify-center ">↓</span>
+        </div>
+    </header>
+
+    <section id="about" class="md:flex justify-center items-center  px-16 gap-5 h-full mr-15">
+        <div class="md:w-100 h-100 ml-65 mt-0">
+            <img src="./images/_25-05-20_11-03-14-823.jpg" alt="" class="h-120 w-130">
+        </div>
+        <div class=" flex flex-col md-12 ml-10 px-6 py-10 ">
+            <h2 class="text-4xl font-bold mb-4">About me</h2>
+            <p class="text-gray-700 mb-6">i am a web developer, i develop amazing websites</p>
+            <ul class="grid gap-y-2">
+                <li class="grid md:grid-cols-2">
+                    <span class="font-medium">Name:</span>
+                    <span class="text-gray-700">Theodora Ayimaa Asare</span>
+                </li>
+                <li class="grid md:grid-cols-2">
+                    <span class="font-medium">Date of Birth:</span>
+                    <span class="text-gray-700">January 4, 2002</span>
+                </li>
+                <li class="grid md:grid-cols-2">
+                    <span class="font-medium">Address:</span>
+                    <span class="text-gray-700">F691 CANARY ST</span>
+                </li>
+                <li class="grid md:grid-cols-2">
+                    <span class="font-medium">Email:</span>
+                    <span class="text-gray-700">ayimaatheodora2022@gmail.com</span>
+                </li>
+                <li class="grid md:grid-cols-2">
+                    <span class="font-medium">Phone:</span>
+                    <span class="text-gray-700">0596020268</span>
+                </li>
+            </ul>
+            <div>
+                <button
+                    class=" mt-4 bg-pink-700 text-white md:text-sm px-6 py-2 rounded-full hover:bg-pink-800 transition">
+                    <a href="">Download CV</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex md:space-x-6 p-30 justify-around">
+            <span>
+                <a href=""><img src="./images/asset 0.png" alt="" class="h-15 w-30"></a>
+            </span>
+            <span>
+                <a href=""><img src="./images/asset 1.png" alt="" class="h-15 w-30"></a>
+            </span>
+            <!-- <span>
+                <a href=""><img src="./images/asset 2.png" alt="" class="h-15 w-30"></a>
+            </span> -->
+            <span>
+                <a href=""><img src="./images/asset 3.png" alt="" class="h-15 w-30"></a>
+            </span>
+            <span>
+                <a href=""><img src="./images/asset 4.png" alt="" class="h-15 w-30"></a>
+            </span>
+
+        </div>
+    </section>
+    <section id="resume" class="flex md:flex-row justify-around">
+        <div class="flex md:flex-row justify-between gap-50">
+            <div class="sticky top-0 z-10 bg-white w-full md:w-48 shadow-[0_4px_12px_rgba(255,105,180,0.4)] p-4">
+                <ul class="text-sm mt-7 font-bold">
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li class="mt-2">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="mt-2">
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+            </div>
+            <div class="flex md:flex-col">
+                <h1 class="text-2xl font-bold text-pink-700">Education</h1>
+                <div id="education" class="flex md:flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2025-Curent_</span>
+                        <h2 class="font-bold mt-2">Web Development Trainee</h2>
+                        <span class="font-bold">Generation Ghana(Mest Africa)</span>
+                        <p class="text-gray-700">Developed a solod understanding of electrical systems,
+                            circuits, and electronics, preparing me<br> for a career in the tech industries
+                        </p>
+                    </div>
+                </div>
+                <span class="mt-5 md:text-gray-700">
+                    <hr>
+                </span>
+
+                <div class="flex md:flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2020-2023_</span>
+                        <h2 class="font-bold mt-2">Diploma in Electronics and Electrical Engineering</h2>
+                        <span class="font-bold">Accra Technical University</span>
+                        <p class="text-gray-700">Developed a solod understanding of electrical systems,
+                            circuits, and electronics, preparing me<br> for a career in the tech industries
+                        </p>
+                    </div>
+
+
+                </div>
+                <h1 class="text-2xl font-bold text-pink-700 mt-10">Experience</h1>
+                <div id="experience" class="flex flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2025-Curent_</span>
+                        <h2 class="font-bold mt-2">Websites And Web Application Developer</h2>
+                        <span class="font-bold">Mest Africa</span>
+                        <p class="text-gray-700">Developed a solod understanding of electrical systems,
+                            circuits, and electronics, preparing me<br> for a career in the tech industries
+                        </p>
+                    </div>
+                </div>
+                <span class="mt-5 text-gray-700">
+                    <hr>
+                </span>
+                <div class="flex md:flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2023-2025_</span>
+                        <h2 class="font-bold mt-2">Electrical Instrumentation Technician</h2>
+                        <span class="font-bold">Pioneer Food Cannery</span>
+                        <p class="text-gray-700">Operated on Electronic Devices and utilized,
+                            SAP software to manage workorders and ensure<br>efficient management systems
+                        </p>
+                    </div>
+                </div>
+                <span class="mt-5 text-gray-700">
+                    <hr>
+                </span>
+                <div class="flex md:flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2022-2022_</span>
+                        <h2 class="font-bold mt-2">Diploma in Electronics and Electrical Engineering</h2>
+                        <span class="font-bold">Accra Technical University</span>
+                        <p class="text-gray-700">Developed a solod understanding of electrical systems,
+                            circuits, and electronics, preparing me<br> for a career in the tech industries
+                        </p>
+                    </div>
+                </div>
+                <span class="mt-5 text-gray-700">
+                    <hr>
+                </span>
+                <div class="flex md:flex-row mt-4 gap-3">
+
+                    <div class="flex flex-row"><img src="./images/icon.png" alt="icon" class="w-10 h-10"></div>
+                    <div>
+                        <span class="text-sm font-medium text-pink-700">_2020-2023_</span>
+                        <h2 class="font-bold mt-2">Diploma in Electronics and Electrical Engineering</h2>
+                        <span class="font-bold">Accra Technical University</span>
+                        <p class="text-gray-700">Developed a solod understanding of electrical systems,
+                            circuits, and electronics, preparing me<br> for a career in the tech industries
+                        </p>
+                    </div>
+                </div>
+                <h1 class="text-2xl font-bold text-pink-700 mt-10">Skills</h1>
+                <div id="skills" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-8 bg-white">
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">HTML</h1>
+                        <img src="./images/htmlicon.webp" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">CSS</h1>
+                        <img src="./images/cssicon.png" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">JAVASCIPT</h1>
+                        <img src="./images/jsicon.png" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-8 bg-white">
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">GIT</h1>
+                        <img src="./images/giticon.png" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">TAILWIND</h1>
+                        <img src="./images/tailwindicon.png" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                    <div
+                        class="bg-white rounded-xl shadow-[0_4px_12px_rgba(255,105,180,0.4)] text-center p-6 hover:-translate-y-1 transition">
+                        <h1 class="text-lg font-semibold text-gray-800">REACT</h1>
+                        <img src="./images/reacticon.png" alt="" class="w-16 h-16 mx-auto mb-4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="">
+        <h1 class="flex justify-center md:text-4xl font-bold mt-20 text-pink-700 ">MY PROJECTS</h1>
+        <p class="flex justify-center">I have below this section amazing and inspiring projects</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 p-6 max-w-5xl mx-auto">
+            <a href="https://ayimaah-crypto.github.io/portfolio/"
+                class="flex flex-col items-center bg-white shadow-[0_4px_12px_rgba(255,105,180,0.4)] rounded-2xl p-6 transition-all duration-300 hover:shadow-xl active:bg-pink-400">
+                <img src="./images/projecticon.png" alt="Project Icon" class="h-12 w-12 mb-2 object-contain" />
+                <span class="text-sm font-medium text-gray-800">Live Demo</span>
+                <p class="font-medium text-gray-800">Portfolio</p>
+            </a>
+            <a href=""
+                class="flex flex-col items-center bg-white shadow-[0_4px_12px_rgba(255,105,180,0.4)] rounded-2xl p-6 transition-all duration-300 hover:shadow-xl active:bg-pink-400">
+                <img src="./images/projecticon.png" alt="Project Icon" class="h-12 w-12 mb-2 object-contain" />
+                <span class="text-sm font-medium text-gray-800">Live Demo</span>
+                <p class="font-medium text-gray-800">Food Hub</p>
+            </a>
+            <a href="https://ayimaah-crypto.github.io/Authentication/"
+                class="flex flex-col items-center bg-white shadow-[0_4px_12px_rgba(255,105,180,0.4)] rounded-2xl p-6 transition-all duration-300 hover:shadow-xl active:bg-pink-400">
+                <img src="./images/projecticon.png" alt="Project Icon" class="h-12 w-12 mb-2 object-contain" />
+                <span class="text-sm font-medium text-gray-800">Live Demo</span>
+                <p class="font-medium text-gray-800">Authentication</p>
+            </a>
+            <a href="https://ayimaah-crypto.github.io/Game-Pal/"
+                class="flex flex-col items-center bg-white shadow-[0_4px_12px_rgba(255,105,180,0.4)] rounded-2xl p-6 transition-all duration-300 hover:shadow-xl active:bg-pink-400">
+                <img src="./images/projecticon.png" alt="Project Icon" class="h-12 w-12 mb-2 object-contain" />
+                <span class="text-sm font-medium text-gray-800">Live Demo</span>
+                <p class="font-medium text-gray-800">landing page</p>
+            </a>
+        </div>
+
+    </section>
+
+
+    <section class="w-full bg-cover bg-center bg-no-repeat" style="background-image: url('./images/R.jpg');">
+        <div class=" py-10 px-6 flex flex-col items-center text-center text-white">
+            <h2 class="text-3xl text-black sm:text-4xl font-bold mb-4">I am available for Freelancing</h2>
+            <p class="max-w-2xl text-black text-base sm:text-lg mb-6">
+                I’m currently open to freelance opportunities where I can contribute my skills in building modern,
+                responsive, and user-friendly web experiences. Let’s work together to bring your ideas to life.
+            </p>
+            <a href="#contact"
+                class="bg-pink-700 hover:bg-pink-800 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-all duration-300">
+                Hire Me
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="mt-10">
+        <div class="max-w-4xl mx-auto text-center mb-10">
+            <h1 class="text-3xl text-pink-700 font-bold mb-4">My Contacts</h1>
+            <p class="text-gray-600">Feel free to reach out through any of the options below.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <!-- Contact Item -->
+            <div class="bg-white shadow-md shadow-pink-700 p-6 flex flex-col items-center rounded-lg">
+                <img src="./images/contacts.jpg" alt="Phone" class="w-12 h-12 mb-3">
+                <h3 class="text-center font-bold text-gray-800 text-sm">Contact</h3>
+                <p class="text-center text-gray-800 text-sm">+233596020268</p>
+            </div>
+
+            <div class="bg-white shadow-md shadow-pink-700 p-6 flex flex-col items-center rounded-lg">
+                <img src="./images/address.webp" alt="Address" class="w-12 h-12 mb-3">
+                <h3 class="text-center font-bold text-gray-800 text-sm">Address</h3>
+                <p class="text-center text-gray-800 text-sm">F691 CANARY ST</p>
+            </div>
+
+            <div class="bg-white shadow-md shadow-pink-700 p-6 flex flex-col items-center rounded-lg">
+                <img src="./images/email.png" alt="Email" class="w-12 h-12 mb-3">
+                <h3 class="text-center font-bold text-gray-800 text-sm">Email Address</h3>
+                <p class="text-center text-gray-800 text-sm">ayimaahtheodora2022@gmail.com</p>
+            </div>
+
+            <div class="bg-white shadow-md shadow-pink-700 p-6 flex flex-col items-center rounded-lg">
+                <img src="./images/web.png" alt="Website" class="w-12 h-12 mb-3">
+                <h3></h3>
+                <p class="text-center text-gray-800"></p>
+            </div>
+        </div>
+        <div>
+            <!-- <div>
+        <img src="" alt="" class="h-130 w-100 mt-10">
+    </div> -->
+            <section id="contact" class="py-20 px-4 bg-gray-100">
+                <div class="max-w-2xl mx-auto">
+                    <div class="bg-white p-8 rounded-lg shadow-md shadow-pink-700">
+                        <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+                        <form action="https://formspree.io/f/xeogyyqn" method="POST" class="space-y-6">
+                            <!-- Name -->
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                                <input type="text" name="name" id="name" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600">
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                <input type="email" name="email" id="email" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600">
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <label for="message"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea name="message" id="message" rows="5" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"></textarea>
+                            </div>
+
+                            <!-- Submit -->
+                            <div class="text-center">
+                                <button type="submit"
+                                    class="bg-pink-600 text-white font-semibold px-6 py-2 rounded hover:bg-pink-700 transition">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 px-4">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+    <!-- Navigation Links -->
+    <div class="flex flex-col md:flex-row md:items-center md:space-x-8 text-center md:text-left space-y-4 md:space-y-0">
+      <a href="#home" class="hover:text-pink-500 transition">Home</a>
+      <a href="#about" class="hover:text-pink-500 transition">About</a>
+      <a href="#resume" class="hover:text-pink-500 transition">Resume</a>
+      <a href="#projects" class="hover:text-pink-500 transition">Projects</a>
+      <a href="#contact" class="hover:text-pink-500 transition">Contact</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex justify-center md:justify-end space-x-6">
+      <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener">
+        <img src="./images/linkedin_icon_264993.png" alt="Facebook" class="w-6 h-6 hover:opacity-80 transition">
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+        <img src="./images/telegram_icon_264994.png" alt="LinkedIn" class="w-6 h-6 hover:opacity-80 transition">
+      </a>
+      <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener">
+        <img src="./images/instagram_icon_264992.png" alt="Instagram" class="w-6 h-6 hover:opacity-80 transition">
+      </a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="mt-8 text-center text-sm text-gray-400">
+    &copy; 2025 Theodora. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+
+</html>
